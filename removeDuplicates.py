@@ -28,7 +28,7 @@ def convert(line, upto):
     return nl_str 
 
 count = 0
-upto = sys.argv[2] # 1, 2, 3
+upto = 1 # sys.argv[2] # 1, 2, 3
 
 for line in open(infilename, "r"):
     nl = convert(line, upto)
